@@ -8,15 +8,11 @@ console.log(rectangular(2,4));
 
 // Problem 2: Write a function to convert degrees to radians.
 function convertingDegToRad(degree) {
-    console.log(Math.PI);
-    console.log(degree*(Math.PI/180));
-    console.log(degree * (3.1415 / 180)); 
-//   console.log(degree * (3.14100 / 180));  
-    return degree *(3.14159/180);
+    return degree * (Math.PI/180);
 }
 console.log(convertingDegToRad(33));
 // Problem 3: Create a function calculateFactorial that takes a number and returns its factorial.
-    function factorialFun(n) {
+    function calculateFactorial(n) {
         var factNum = 1;
         if (n==0|| n==1) {
             return factNum;
@@ -29,7 +25,7 @@ console.log(convertingDegToRad(33));
             return "Numbrt has to be positive.";
         }
     }
-    console.log(factorialFun(4));
+    console.log(calculateFactorial(4));
     
 // Problem 4: Create a function isPrime that takes a number as a parameter and returns true if it's a prime number, and false otherwise.
 function isPrime(num) {
@@ -112,8 +108,6 @@ function evenOdd(stringPar) {
 evenOdd("JavaScript");
 evenOdd("Hello");
 
-
-//  Answer any 4 questions.
 
 // 1. Explain the difference between 'if...else' and 'switch' statements for conditional logic.
 
